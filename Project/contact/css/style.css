@@ -1,0 +1,123 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+body {
+	background: url('../img/background.jpg') no-repeat center center;
+	background-size: cover;
+}
+@font-face {
+	font-family: 'PoiretOne-Regular';
+	src: url('../../font/PoiretOne-Regular.ttf') format('truetype');
+}
+header {
+	background-color: rgba(7, 30, 44, 0.5);
+	height: 20%;
+}
+
+h1 {
+	font-family: 'PoiretOne-Regular', 'Helvetica', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	color: #fff;
+	text-shadow: 3px 2px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	margin-top: 1%;
+	padding-top: 1%;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'PoiretOne-Regular', 'Helvetica', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 6px 5px 6px 5px;
+	margin-right: 3px;
+}
+a:hover {
+	color: #000;
+	text-shadow: 1px 1px rgba(255, 255, 255, 0.3);
+}
+nav {
+	text-align: right;
+	position: relative;
+	height: 23%;
+	top: 27%;
+	right: 10%;
+}
+h2 {
+	position: relative;
+	margin-top: 4%;
+	font-family: 'PoiretOne-Regular', 'Helvetica', sans-serif;
+	font-size: 45px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 3px 3px rgba(0,0,0, 0.3);
+}
+.wrapper {
+	margin-bottom: 1%;
+}
+form {
+	text-align: center;
+	margin-top: 2%;
+	font-family: 'PoiretOne-Regular', 'Helvetica', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	text-shadow: 3px 3px rgba(0,0,0, 0.3);
+}
+input {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	border: none;
+	text-shadow: 3px 3px rgba(0,0,0, 0.3);
+}
+option {
+	border: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+}
+textarea {
+	width: 30%;
+	resize: vertical;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	border: none;
+}
+div div textarea {
+	margin-top: 0.5%;
+}
+#submit {
+	font-family: 'PoiretOne-Regular', 'Helvetica', sans-serif;
+	font-size: 25px;
+	width: 12%;
+	padding: 0.5% 0;
+}
+#submit:hover {
+	background-color: rgba(255,255,255, 0.5);
+	color: #000;
+}
+footer {
+	height: 30%;
+	width: 100%;
+	position: absolute;
+	top: 130%;
+}
+footer, footer a{
+	font-family: 'PoiretOne-Regular', 'Helvetica', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 15px;
+	background-color: rgb(7, 30, 44);
+	text-align: center;
+	padding-top: 1%;
+}
+ul {
+	text-align: center;
+	margin-bottom: 1%;
+}
+li {
+	margin-top:1.5%;
+}

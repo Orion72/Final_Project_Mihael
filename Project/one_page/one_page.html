@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>One page?</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="index">
+		<h1>Welcome to The Useless Website!</h1>
+		<a href="#home">Get in!</a>
+	</div>
+	<header id="header">
+		<h1>The Useless Website</h1>
+		<nav>
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#contact">Contact</a>
+			<a href="../index/index.html">Go back</a>
+		</nav>
+	</header>
+	<main>
+		<div id="home">	
+			<h2>Home</h2>
+			<img src="img/ideas.png" id="ideas" alt="ideas" width="50%">
+		</div>
+		<div id="about">
+			<h2>About</h2>
+			<p>
+				Hello, people! I'm Mihael and this is my final project for the first part of the PHP course. I am not a 100% sure what this project is about, but I hope you'll like it. :D <span>That's me by the way.</span>
+			</p>
+			<img src="img/me.jpg" alt="Me" width="30%">
+		</div>
+		<div id="contact">
+			<h2>Contact me</h2>
+			<form method="post" action="mailto:misho981006@gmail.com">
+				<div class="wrapper">
+					<label for="name">First Name</label>
+					<div>
+						<input type="text" id="name" name="name" placeholder="Example: Hristo">
+					</div>
+				</div>
+				<div  class="wrapper">
+					<label for="lname">Last Name</label>
+					<div>
+						<input type="text" id="lname" name="last_name" placeholder="Example: Petrov">
+					</div>
+				</div>
+				<div  class="wrapper">
+					Gender
+					<div>
+						<select>
+							<option value="1">---</option>
+							<option value="2">Male</option>
+							<option value="3">Female</option>
+							<option value="4">Both</option>
+						</select>
+					</div>
+				</div>
+				<div  class="wrapper">
+					Do you like my website?
+					<div>
+						<label for="yes">Yes</label>
+						<input type="radio" id="yes" name="like_it" value="yes">
+					</div>
+					<div>
+						<label for="ofc">Of course</label>
+						<input type="radio" id="ofc" name="like_it" value="ofc">
+					</div>
+				</div>
+				<div class="wrapper">
+					Favourite things about Christmas?
+					<div>
+						<label for="songs">Christmas songs</label>
+						<input type="checkbox" id="songs" name="Christmas">
+					</div>
+					<div>
+						<label for="vacantions">Vacantions</label>
+						<input type="checkbox" id="vacantions" name="Christmas">
+					</div>
+					<div>
+						<label for="food">Food</label>
+						<input type="checkbox" id="food" name="Christmas">
+					</div>
+					<div>
+						<label for="decoration">Decoration</label>
+						<input type="checkbox" id="decoration" name="Christmas">
+					</div>
+					<div>
+						<label for="all">All (I need for Christmas is yoou) mentioned</label>
+						<input type="checkbox" id="all" name="Christmas">
+					</div>
+				</div>
+				<div class="wrapper">
+					Tell me whatever you want to tell me.
+					<div>
+						<textarea>You're really cool!...</textarea>
+					</div>
+				</div>
+				<div>
+					<input type="submit" id="submit" name="submit" value="Send it to me">
+				</div>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<ul>
+			<li>
+				Facebook:<a href="http://facebook.com/Orion1Photography" target="_blank">Orion Photography</a>
+			</li>
+			<li>
+				Instagram: <a href="http://instagram.com/mishomladenov" target="_blank">mishomladenov</a>
+			</li>
+			<li>
+				Mail: <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">misho981006@gmail.com</a>
+			</li>
+			<li>
+				Phone: +359883360016
+			</li>
+		</ul> 
+		&copy; Mihael Mladenov 
+	</footer>
+</body>
+</html>
